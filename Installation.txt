@@ -1,0 +1,36 @@
+THERE IS NO INSTALLER REQUIRED!
+
+1) Copy ALL files to your webserver, NOTE the name of the public folder "public_html" where index.php is
+   On server this maybe called public, home etc rename the file to match.
+   Only the contents of public_html go in the public folder.
+   
+   if you rename public_html you must also adjust the htaccess
+   .htaccess
+   RewriteRule ^$ public_html/ [L]
+   RewriteRule (.*) public_html/$1 [L]
+
+   For xampp only the public_html/htaccess might need ajusting
+   example
+   RewriteBase /M-BiTsy/public_html
+
+2) Import via phpmyadmin "SQL/Full Database.sql"
+
+3) Edit the file app/config/config.php to suit your needs
+   // Database Details
+   define("DB_HOST", "localhost");
+   define("DB_USER", "username");
+   define("DB_PASS", "password");
+   define("DB_NAME", "dbname");
+   define('DB_CHAR', 'utf8');
+   // Your Site Address
+   define('URLROOT', 'http://localhost/M-BiTsy');
+   // Allow User Admin Access
+   define('_OWNERS', array('M-jay'));
+
+4) Apply the following CHMOD's
+   777 - public_html/avatars
+   777 - public_html/thumbnail
+
+5) Now register as a new user on the site.  The first user registered will become administrator
+
+Any problems please visit https://torrenttrader.uk

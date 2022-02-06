@@ -1,0 +1,328 @@
+html, body {
+	height: 100%;
+    font-size: 1.0 rem;   /* this option adjusts the general font size */
+    background: #ffffffcc !important;
+	color: rgb(5, 33, 59);
+	line-height: 1.4;
+}
+
+/* centering with form */
+.ttform {
+	margin: 0 auto;
+	padding: 10px 20px;
+    background-color: #abc2df;
+    color: #072F5F;
+    border-radius: 2.3rem!important;
+}
+
+@media only screen and (min-width: 1300px) {
+	.ttform {
+		width: 50% !important;
+	}
+}
+
+@media only screen and (max-width: 1300px) {
+	.ttform {
+		max-width: 95% !important;
+	}
+}
+
+.page {
+    padding-top: 10px;
+}
+
+.ttsidebar {
+    -ms-flex: 0 0 210px;
+    flex: 0 0 210px;
+}
+
+@media only screen and (max-width: 1300px) {
+	.ttsidebar {
+		display: none !important;
+	}
+}
+
+@media only screen and (max-width: 1967px) {
+	.ttmobile {
+		max-width: 600px !important;
+	}
+}
+
+/* Define the spacing between center contents and side bars */
+.col{
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.navbar {
+    background-image: -webkit-linear-gradient(top, #072F5F, #3895D3);
+    background-image: linear-gradient(to bottom, #072F5F, #3895D3);
+    background-repeat: repeat-x;
+}
+
+.card {
+	background-color: transparent; /* Needed to make the padding-bottom work */
+	border: 0px; /* Needed to make the padding-bottom work */
+}
+
+.frame-header {
+    color: #fff;
+    background-color: #3895D3 !important;
+    background-repeat: repeat-x;
+    border-bottom: 0px;
+    padding-top: 0;
+    height: 25px;
+}
+
+.frame-body {
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 2px;
+    background-color: #c0d9e0 !important;
+    border-image-source: linear-gradient(to bottom, #3895D3, #8cc6ec) !important;
+}
+
+.block-header {
+    color: #fff;
+    background-color: #3895D3 !important;
+    background-repeat: repeat-x;
+    border-bottom: 0px;
+    padding-top: 0;
+    height: 25px;
+}
+
+.block-body {
+	padding: 0.05rem;
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 2px;
+    background-color: #c0d9e0 !important;
+    border-image-source: linear-gradient(to bottom, #3895D3, #8cc6ec) !important;
+}
+
+.tticon {
+	color: #fff !important;
+    padding: .075rem .25rem;
+}
+
+.tticon-red {
+	color: #ff0000 !important;
+    padding: .075rem .25rem;
+}
+
+.ttbtn {
+	color: #fff !IMPORTANT;
+	background-image: -webkit-linear-gradient(top, #072F5F, #3895D3) !IMPORTANT;
+	background-image: linear-gradient(to bottom, #072F5F, #3895D3) !IMPORTANT;
+    padding: .075rem .25rem;
+}
+
+.ttbtnactive {
+	color: #ff9933 !IMPORTANT;
+	background-image: -webkit-linear-gradient(top, #3895D3, #072F5F) !IMPORTANT;
+	background-image: linear-gradient(to bottom, #3895D3, #072F5F) !IMPORTANT;
+    padding: .075rem .25rem;
+}
+
+.ttbtn:hover {
+	color: #ff9933 !IMPORTANT;
+}
+
+.ttborder {
+	border: 2px solid #3895D3 !important;
+    background: linear-gradient(90deg, rgb(198 228 236) 0%, #a7cdf5 100%) !important;
+    padding-bottom: 2px;
+}
+
+.ttblend {
+	color: #fff;
+    background-image: -webkit-linear-gradient(top, #3895D3, #072F5F) !IMPORTANT;
+    background-image: linear-gradient(to bottom, #3895D3, #072F5F) !IMPORTANT;
+	background-repeat: repeat-x;
+}
+  
+.ttalert {
+    background: linear-gradient(90deg, rgb(198 228 236) 0%, #a7cdf5 100%) !important;
+	background-repeat: repeat-x;
+}
+
+  #country-list{list-style:none;width:190px;}
+  #country-list li{padding: 10px; background: #f0f0f0; border-bottom: #bbb9b9 1px solid;}
+  #country-list li:hover{background:#ece3d2;cursor: pointer;}
+  #search-box{padding: 10px;border: #a8d4b1 1px solid;border-radius:4px;}
+
+/* Styles ShoutBox */
+.shoutbox_contain {
+	border: 0;
+	height: 250px;
+	width: 100%;
+	overflow: auto;
+}
+
+.shoutbox_msgbox {
+	width: 100%;
+	font-size: 16px;
+	background-color: #FFF;
+	border: 1px solid #777;
+}
+
+.shouttable {
+    padding: .05rem .05rem !important;
+}
+
+/* -- Bootstrap Table --*/
+.table thead th {
+    color: #fff;
+    background-color: #072F5F;
+    background-image: -webkit-linear-gradient(top, #072F5F, #3895D3);
+    background-image: linear-gradient(to bottom, #072F5F, #3895D3);
+    background-repeat: repeat-x;
+	height: 25px !important;
+    padding: .15rem;
+}
+
+.table {
+    color: rgb(5, 42, 97);
+}
+
+.a {
+    color: rgb(5, 33, 59);
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+}
+
+.list-group-item {
+    color: rgb(5, 33, 59);
+    background-color: #c0d9e0 !important;
+    border-image-source: rgb(5, 33, 59) !important;
+}
+
+.ttbbcode {
+	color: #fff !IMPORTANT;
+	background-image: -webkit-linear-gradient(top, #3895D3, #072F5F) !IMPORTANT;
+	background-image: linear-gradient(to bottom, #3895D3, #072F5F) !IMPORTANT;
+    height: 20px;
+    padding: 4px;
+}
+
+.shoutsmile {
+    flex-direction: row !important;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+    color: #000102 !important;
+}
+
+tr:nth-child(odd) {
+    background: #a7cdf5 !important;
+}
+
+tr:nth-child(even) {
+    background: #beddfd !important;
+}
+
+.browsebg {
+    background: #c0d9e0 !important;
+}
+
+.form-control {	
+    color: rgb(5, 33, 59);
+    border: 1px solid #1F8AC0 !important;	
+}
+
+button, input, optgroup, select, textarea {	
+    color: rgb(5, 33, 59);	
+}
+
+.dropdown-item {	
+    color: rgb(5, 33, 59);	
+    background-color: #c0d9e0 !important;	
+}
+
+.dropdown-menu {	
+    color: rgb(5, 33, 59);	
+    background-color: #c0d9e0 !important;	
+}
+
+.progress-bar {	
+    color: #a7cdf5;	
+}
+
+.block-footer {
+    height: 10px !important;
+}
+
+@media (max-width: 767px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* medium and up screens */
+@media (min-width: 768px) {
+    
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(25%);
+    }
+    
+    .carousel-inner .carousel-item-start.active, 
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-25%);
+    }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start { 
+  transform: translateX(0);
+}
+
+.carousel-control-prev-icon {
+    background-color: rgb(255, 0, 0);
+}
+.carousel-control-next-icon {
+    background-color: rgb(255, 0, 0);
+}
+
+.ballooncolor {
+    color: rgb(5, 33, 59);	
+    background-color: #a7cdf5;	
+}
+
+.balloonheadercolor {
+    background-image: -webkit-linear-gradient(top, #072F5F, #3895D3);
+    background-image: linear-gradient(to bottom, #072F5F, #3895D3);
+    background-repeat: repeat-x;
+    color: #fff;
+}
+
+.pagination-sm .page-link {
+    color: #fff;
+    background-image: -webkit-linear-gradient(top, #072F5F, #3895D3);
+    background-image: linear-gradient(to bottom, #072F5F, #3895D3);
+}
+
+.page-item.disabled .page-link {
+    color: #fff;
+    background-image: -webkit-linear-gradient(top, #072F5F, #3895D3);
+    background-image: linear-gradient(to bottom, #072F5F, #3895D3);
+}
+
+.page-item.active .page-link {
+    color: #ff9900;
+}
+
+.ttpadbottom {
+    margin-bottom: 15px !important;
+}
