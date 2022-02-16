@@ -223,9 +223,9 @@ class Upload
                     $count = count($file["path"]);
                     for ($i = 0; $i < $count; $i++) {
                         if (($i + 1) == $count) {
-                            $fname = $dir . $file["path"][$i];
+                            $fname = $file["path"][$i] . $dir ;
                         } else {
-                            $dir .= $file["path"][$i] . "/";
+                            $dir .= "/" . $file["path"][$i];
                         }
 
                     }

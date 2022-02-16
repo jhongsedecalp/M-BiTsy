@@ -19,6 +19,7 @@ There is support at https://torrenttrader.uk<br>
 
   - Stack backtrace for exceptions
   - PDO Prepared Statements
+  - v2 torrents
   - MVC Core
   - Bootstrap 5
   - BCRYPT Passwords
